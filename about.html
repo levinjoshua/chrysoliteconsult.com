@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRYSOLITE CONSULT SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app.js">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="banner">
+            <div id="logo">
+                <img src="images/Chrysolite Logo.png" alt="">
+            </div>
+            <div id="moto">
+                <h1>Empowering Research and Corporate Innovation</h1>
+            </div>
+        </div>
+        <div id="fixed-nav">
+            <div id="header">
+                <ul>
+                    <li><a class="menu-links" href="index.html">home</a></li>
+                    <li><a class="menu-links" href="#">about</a></li>
+                    <li><a class="menu-links" href="services.html">services</a></li>
+                    <li><a class="menu-links" href="testimonials.html">testimonials</a></li>
+                    <li><a class="menu-links" href="#footer">contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="wrapper-text">
+            <h1>Welcome to Chrysolite Consultancy Firm</h1>
+            <p>Excellence in <span>Academic Writing, Research Support & Data Analysis</s></p>
+        </div>
+        <div id="menu-btn">
+            <!-- <img id="menu-img" src="/images/menu-icon.png" alt=""> 
+            -->
+            <i class="fa fa-bars"></i>
+        </div>
+        
+    </div>
+
+    <div class="features-section">
+         <!-- TITLE SECTION -->
+        <div class="section-title">
+            <h1>about us</h1>
+            <h2><i class="fa fa-thumbs-o-up"></i>Excellence in <span>Academic Writing</span>, <span>Research Support</span> & <span>Data Analysis</span></h2>
+        </div>
+        <div class="section-text">
+            <div class="col-1">
+                 <p><span>Chrysolite Consultancy Firm</span> is an academic research and writing consultancy dedicated to supporting students, scholars, professionals, NGOs, and institutions across all academic levels. </p><br>
+                <p>We help you navigate every stage of the academic journey from topic selection to publication with clarity, professionalism, and confidence.</p><br>
+                <p>Whether you're preparing a thesis, dissertation, proposal, term paper, journal manuscript, or data analysis, our expert team provides high-quality, ethical, and confidential support to ensure your academic success.</p>
+            </div>
+            <div class="col-1">
+                <h3>why choose us</h3>
+                <ul id="list-color">
+                    <li><i class="fa fa-star"></i>Highly qualified academic consultants</li>
+                    <li><i class="fa fa-star"></i>Plagiarism-free writing & Turnitin compliance</li>
+                    <li><i class="fa fa-star"></i>Advanced data analysis (SPSS, STATA, R, NVivo, Python)</li>
+                    <li><i class="fa fa-star"></i>Personalized support for all academic levels</li>
+                    <li><i class="fa fa-star"></i>Strict confidentiality and punctual delivery</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- CALL TO ACTION SECTION -->
+    <div class="call-action">
+        <h4>Start Your Academic Journey With Confidence</h4>
+        <p>Let <span>Chrysolite Consultancy</span> Firm support your research, writing, and analysis needs.</p>
+        <p><i class="fa fa-phone"></i> Contact us today for expert assistance.</p>
+        <p><p>+254 712 443 832 <span id="stroke">/</span> +254 789 986 539</p></p>
+    </div>
+    <!-- DIFFERENT SECTION -->
+    <div class="features-section">
+        <!-- CONTECT SECTION -->
+        <div class="section-text">
+            <div class="section-paragragh col-1">
+                <p>We are dedicated to transforming innovative ideas into successful ventures.</p><br>
+                <p> We serve <span>academic researchers</span> and <span>corporate clients</span> by offering a range of high-quality consulting services designed to foster excellence, strategic growth, and impactful results.</p><br>
+                <p>Our <span>mission</span> is to provide expert guidance that ensures your projects are feasible, fundable and strategically aligned with your goals and aspirations. With a robust portfolio of services in research methodologies, project design, business planning, financial consulting, market analysis, and data management, we are your trusted partner at every stage of your development journey.</p>
+                
+            </div>
+            <div class="section-pic col-1">
+                <img src="/images/about us.jpg" alt="about">
+            </div>
+        </div>
+    </div>
+    <div id="next-section">
+        <h3><i class="fa fa-certificate"></i>EXCEL FROM TOPIC TO PUBLICATION — AND DEFEND WITH CONFIDENCE</h3>
+        <div id="about-content">
+            <div id="content-1">
+                <p>We offer comprehensive Academic Research Consulting Services to guide you through every phase of your academic journey.</p><br>
+                <p>From identifying a powerful research topic to developing a compelling proposal, our team helps you build a solid foundation for your study.</p><br>
+                <p>We support you through data collection, analysis, report writing, and manuscript preparation with expert feedback to ensure clarity, coherence, and academic excellence.</p><br>
+            </div>
+            <div id="content-1">
+                <p>When it's time to present, we've got you covered with our Pre-Defense Preparation Sessions.</p><br>
+                <p>We'll walk you through your proposal, simulate real defense scenarios, and provide targeted tips to refine your delivery and respond with confidence.</p><br>
+                <p id="bold-color">From concept to completion — and the final defense — we help you succeed at every step.</p><br>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER DETAILS -->
+   
+    <div class="nav-btn">
+        <a href="#"><i class="fa fa-chevron-up"></i></a></i>
+    </div>
+
+    <script>
+        const menu = document.getElementById('header')
+        const menuBtn = document.getElementById('menu-btn')
+        const menuIcon = document.getElementById('menu-img')
+
+        menu.style.right = '-256px'
+        
+        menuBtn.onclick = ()=>{
+            if(menu.style.right === '-256px'){
+                menu.style.right = '0px'
+                // menuIcon.src = '/images/close.png'
+                menuBtn.innerHTML = `<i class="fa fa-close"></i>`
+            }else{
+                menu.style.right = '-256px'
+                // menuIcon.src = '/images/menu-icon.png'
+                menuBtn.innerHTML = `<i class="fa fa-bars"></i>`
+            }
+        }
+    </script>
+    <script src="app.js"></script>
+    <script src="footer-injector.js"></script>
+</body>
+</html>

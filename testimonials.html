@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHRYSOLITE CONSULT SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="app.js">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="banner">
+            <div id="logo">
+                <img src="images/Chrysolite Logo.png" alt="">
+            </div>
+            <div id="moto">
+                <h1>Empowering Research and Corporate Innovation</h1>
+            </div>
+        </div>
+        <div id="fixed-nav">
+            <div id="header">
+                <ul>
+                    <li><a class="menu-links" href="index.html">home</a></li>
+                    <li><a class="menu-links" href="about.html">about</a></li>
+                    <li><a class="menu-links" href="services.html">services</a></li>
+                    <li><a class="menu-links" href="#">testimonials</a></li>
+                    <li><a class="menu-links" href="#footer">contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="wrapper-text">
+            <h1>Welcome to Chrysolite Consultancy Firm</h1>
+            <p>Excellence in <span>Academic Writing, Research Support & Data Analysis</span></p>
+        </div>
+        <div id="menu-btn">
+            <!-- <img id="menu-img" src="/images/menu-icon.png" alt=""> 
+            -->
+            <i class="fa fa-bars"></i>
+        </div>
+        
+    </div>
+
+ 
+    <!-- DIFFERENT SECTION -->
+    <div class="features-section">
+        <!-- TITLE SECTION -->
+        <div class="section-title">
+            <h1>testimonials</h1>
+            <h2><i class="fa fa-tachometer"></i>key indicators of our success</h2>
+        </div>
+        <!-- CONTECT SECTION -->
+        <div class="section-text">
+            <div class="section-pic col-1 testimonial">
+                <h4>Successful Project Funding</h4>
+                <p>We have a proven track record of helping clients secure significant funding opportunities through well-crafted proposals and strategic support.</p><br>
+                <h4>Strategic Market Insights</h4>
+                <p>Our expert market analysis and surveys lead to successful business strategies and ventures, providing actionable insights into market trends and opportunities.</p><br>
+                <h4>Effective Business Planning</h4>
+                <p>Our comprehensive business plans and proposals result in successful partnerships, investments, and contracts, helping businesses achieve their objectives.</p>
+
+            </div>
+            <div class="section-paragragh col-1 testimonial">   
+                <h4>Accurate Financial Management</h4>
+                <p>We deliver detailed financial analysis and planning services that drive business growth and operational efficiency, ensuring sound financial management.</p><br>
+                <h4>Clear Data Communication</h4>
+                <p>Our data analysis services create impactful and understandable representations of data, enhancing decision-making and communication.</p>
+            </div>
+            <div id="clients-text">
+                <h3><i class="fa fa-user"></i>what clients are saying!</h3>
+                <p><span>reviews</span>We are a five star rated firm!</p>
+                <div id="review-icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+             <div class="article">
+            <div class="review">
+                <div class="image-container"><img src="images/cover3.jpg" id="person-img" alt="Person's image">
+                    <div class="quote">
+                        <i class="fa fa-quote-right"></i>
+                    </div>
+                </div>
+                <h4 id="author">gaki</h4>
+                <p id="job">student</p>
+                <p id="info">
+                    Working with Chrysolite Consultancy Firm was honestly the best decision I made for my research. They supported me from choosing the topic all the way to final proposal approval. Everything was clear, timely, and professionally done. Even my supervisor praised the quality of my work. If you want stress-free academic support, this is the team to trust.
+                </p>
+                <div class="button-container">
+                    <div class="prev-btn">
+                        <i class="fa fa-chevron-left"></i>
+                    </div>
+                    <div class="next-btn"><i class="fa fa-chevron-right"></i></div>
+                </div>
+            </div>
+           </div>
+            
+        </div>
+    </div>
+
+    <!-- FOOTER DETAILS -->
+
+    <div class="nav-btn">
+        <a href="#"><i class="fa fa-chevron-up"></i></a></i>
+    </div>
+
+    <script>
+        const menu = document.getElementById('header')
+        const menuBtn = document.getElementById('menu-btn')
+        const menuIcon = document.getElementById('menu-img')
+
+        menu.style.right = '-256px'
+        
+        menuBtn.onclick = ()=>{
+            if(menu.style.right === '-256px'){
+                menu.style.right = '0px'
+                // menuIcon.src = '/images/close.png'
+                menuBtn.innerHTML = `<i class="fa fa-close"></i>`
+            }else{
+                menu.style.right = '-256px'
+                // menuIcon.src = '/images/menu-icon.png'
+                menuBtn.innerHTML = `<i class="fa fa-bars"></i>`
+            }
+        }
+    </script>
+    <script src="app.js"></script>
+    <script src="footer-injector.js"></script>
+</body>
+</html>
