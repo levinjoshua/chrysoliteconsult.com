@@ -81,13 +81,13 @@ const reviews = [
     {
         id:4,
         author:`Nelly`,
-        img:`images/chrysolite.jpg`,
+        img:`images/Chrysolite.jpg`,
         job:`Researcher`,
         text:`As someone working on postgraduate research, I needed help with structuring my chapters and refining my literature review. Chrysolite Consultancy Firm delivered exactly what I needed. Their attention to detail, clarity, and originality completely transformed my work. My document finally felt polished and ready for submission.`
     },
     {
         id:5,
-        author: `Cynthia`,
+        author:`Cynthia`,
         img:`images/service.jpg`,
         job:`Research Client`,
         text:`Chrysolite Consultancy Firm made my whole research journey so much easier. They guided me step by step, helped with data analysis, and ensured my work met a high academic standard. I really appreciated their professionalism, confidentiality, and consistent support throughout. It truly felt like I was in good hands`
@@ -133,4 +133,5 @@ prevBtn.addEventListener('click',()=>{
         currentItem = reviews.length - 1
     }
     showPerson(currentItem)
+
 })
