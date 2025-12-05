@@ -780,5 +780,25 @@ footer{
     }
 
 }
+@media screen and (max-width:500px) {
+    #info{
+        height: 170px;
+    }
+}
+@media screen and (width:768px) {
+    #info{
+        height: 102px;
+    }
+}
+@media screen and (width:912px) {
+    #info{
+        height: 85px;
+    }
+}
+@media screen and (max-width:344px) {
+    #info{
+        height: 178px;
+    }
+}
 
 
