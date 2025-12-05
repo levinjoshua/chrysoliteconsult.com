@@ -301,6 +301,7 @@ body p{
 }
 #service-text p a{
     transition: .5s;
+    text-decoration: underline;
 }
 #service-text p .fa-star{
     color: rgb(247, 191, 5);
@@ -308,7 +309,6 @@ body p{
 }
 #service-text p a:hover{
     color: rgb(201, 154, 2);
-    text-decoration: underline;
 }
 /* CALL TO ACTION SECTION */
 .call-action{
@@ -780,4 +780,5 @@ footer{
     }
 
 }
+
 
