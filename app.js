@@ -60,35 +60,35 @@ const reviews = [
     {
         id:1,
         author:`gaki`,
-        img: `images/cover3.jpg`,
+        img: `images/w-1.jpg`,
         job:`student`,
         text:`Working with Chrysolite Consultancy Firm was honestly the best decision I made for my research. They supported me from choosing the topic all the way to final proposal approval. Everything was clear, timely, and professionally done. Even my supervisor praised the quality of my work. If you want stress-free academic support, this is the team to trust.`
     },
     {
         id:2,
         author: `George`,
-        img: `images/about.jpg`,
+        img: `images/m-1.jpg`,
         job:`Data Client`,
         text:`I was really impressed by how Chrysolite handled my data analysis. They took care of everything from doing my data analysis using SPSS to explaining the results in a clear, simple way. For the first time, I actually understood my own data. Their support gave me a lot of confidence during my presentation. Truly reliable and professional.`
     },
     {
         id:3,
         author:`Gideon`,
-        img: `images/about us.jpg`,
+        img: `images/m-2.jpg`,
         job:`Project Client`,
         text:`Our project required a well-prepared baseline report and proper data analysis. Chrysolite handled everything professionally from developing the tools to analyzing both qualitative and quantitative data. They delivered on time and presented the results clearly. Their support made our entire project process much smoother.`
     },
     {
         id:4,
         author:`Nelly`,
-        img:`images/Chrysolite.jpg`,
+        img:`images/w-2.jpg`,
         job:`Researcher`,
         text:`As someone working on postgraduate research, I needed help with structuring my chapters and refining my literature review. Chrysolite Consultancy Firm delivered exactly what I needed. Their attention to detail, clarity, and originality completely transformed my work. My document finally felt polished and ready for submission.`
     },
     {
         id:5,
         author:`Cynthia`,
-        img:`images/service.jpg`,
+        img:`images/w-5.jpg`,
         job:`Research Client`,
         text:`Chrysolite Consultancy Firm made my whole research journey so much easier. They guided me step by step, helped with data analysis, and ensured my work met a high academic standard. I really appreciated their professionalism, confidentiality, and consistent support throughout. It truly felt like I was in good hands`
     }
@@ -135,3 +135,4 @@ prevBtn.addEventListener('click',()=>{
     showPerson(currentItem)
 
 })
+
